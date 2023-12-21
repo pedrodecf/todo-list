@@ -1,0 +1,35 @@
+.container {
+  margin-top: 2.4rem;
+  border-radius: 8px;
+  border-top: 1px solid var(--gray-250);
+  padding: 6.4rem 2.4rem;
+}
+
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+
+.imgContainer img {
+  width: 5.6rem;
+  height: 5.6rem;
+}
+
+.container .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .info p:first-child {
+  color: var(--gray-300);
+  font-weight: 700;
+}
+
+.container .info p:last-child {
+  color: var(--gray-300);
+  font-weight: 40;
+}

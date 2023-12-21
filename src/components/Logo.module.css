@@ -1,0 +1,17 @@
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.toLogo {
+  color: var(--blue);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.doLogo {
+  color: var(--purple-dark);
+}

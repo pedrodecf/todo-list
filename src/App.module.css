@@ -1,0 +1,69 @@
+.app {
+  margin: 0 auto;
+  min-height: 100vh;
+  height: auto;
+  background: var(--gray-600);
+  padding-bottom: 2.4rem;
+}
+
+.header {
+  background: var(--gray-700);
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  max-width: 73.6rem;
+  margin: 0 auto;
+}
+
+.input {
+  padding: 1.6rem;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  background: var(--gray-500);
+  width: 100%;
+
+  color: var(--gray-300);
+  font-weight: 400;
+}
+
+.controls {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: -28px;
+}
+
+.content section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6.5rem;
+  margin-bottom: 2.4rem;
+}
+
+.content section .tasks p,
+.content section .tasksCompleted p {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.content section .tasks p {
+  color: var(--blue);
+}
+
+.content section .tasksCompleted p {
+  color: var(--purple);
+}
+
+.content section .tasks span,
+.content section .tasksCompleted span {
+  color: var(--gray-200);
+  font-size: 1.2rem;
+  padding: 0.2rem 0.8rem;
+  border-radius: 999px;
+  background: var(--gray-400);
+}

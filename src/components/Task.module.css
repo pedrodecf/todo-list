@@ -1,0 +1,41 @@
+.taskContainer {
+  padding: 1.6rem;
+  display: grid;
+  grid-template-columns: 2.4rem 1fr 2.4rem;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 1.2rem;
+  width: 100%;
+  background: var(--gray-500);
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  margin-top: 1.2rem;
+}
+
+.taskNotCompleted {
+  color: var(--gray-100);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.taskCompleted {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.taskContainer svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  line-height: 0;
+  color: var(--gray-250);
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+}
+
+.taskContainer svg:hover {
+  color: var(--danger);
+}
+
