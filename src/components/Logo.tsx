@@ -1,6 +1,6 @@
 import styles from "./Logo.module.css"
 
-import toDoLogo from "../assets/rocket.svg"
+import toDoLogo from "../../public/rocket.svg"
 
 export function Logo() {
   return (

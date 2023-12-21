@@ -1,5 +1,5 @@
 import styles from "./NoTask.module.css"
-import notaskimg from "../assets/notaskimg.png"
+import notaskimg from "../../public/notaskimg.png"
 
 export function NoTask() {
   return (
