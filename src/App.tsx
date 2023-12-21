@@ -9,9 +9,9 @@ import { Task } from "./components/Task"
 import { useEffect, useState } from "react"
 
 export function App() {
-  const [tasks, setTasks] = useState([])
+  const [tasks, setTasks] = useState<string[]>([])
   const [newTask, setNewTask] = useState("")
-  const [completedTasks, setCompletedTasks] = useState([])
+  const [completedTasks, setCompletedTasks] = useState<string[]>([])
 
   function handleCreateTask() {
     if (!newTask) {
